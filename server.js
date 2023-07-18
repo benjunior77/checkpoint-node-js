@@ -29,12 +29,12 @@ var server = http.createServer(function (req, res) {
 var nodemailer = require('nodemailer');
 
 let transporter = nodemailer.createTransport({
-    host: "mail.klarrion.com",
+    host: "mail.gmail.com",
     port: 465,
     secure: true,
     auth: {
-    user: 'gomycode@klarrion.com',
-    pass: 'Yassine2022'
+    user: 'kina@gmail.com',
+    pass: 'kina'
   }
 });
 
